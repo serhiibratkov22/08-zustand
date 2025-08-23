@@ -7,7 +7,7 @@ import Footer from '@/components/Footer/Footer';
 import TanStackProvider from '@/components/TanStackProvider/TanStackProvider';
 
 const roboto = Roboto({
-  subsets: ['latin'],
+  subsets: ['latin', 'cyrillic'],
   weight: ['400', '700'],
   variable: '--font-roboto',
   display: 'swap',
